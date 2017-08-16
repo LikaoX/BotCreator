@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.sddev.botmaker.NewProjectWindow">
+  <grid id="27dc6" binding="contentPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="800" height="600"/>
+    </constraints>
+    <properties>
+      <minimumSize width="800" height="600"/>
+      <preferredSize width="800" height="600"/>
+    </properties>
+    <border type="empty">
+      <size top="10" left="10" bottom="10" right="10"/>
+    </border>
+    <children>
+      <grid id="d3e77" layout-manager="FormLayout">
+        <rowspec value="center:m:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(m;4px):noGrow"/>
+        <colspec value="fill:d:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="empty">
+          <size top="0" left="0" bottom="0" right="0"/>
+        </border>
+        <children>
+          <component id="cc98" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Nazwa Projektu"/>
+            </properties>
+          </component>
+          <component id="33e41" class="javax.swing.JTextField" binding="nameTextField">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="80d55" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Ścieżka Projektu"/>
+            </properties>
+          </component>
+          <component id="8992d" class="javax.swing.JTextField" binding="pathTextField">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <maximumSize width="800" height="600"/>
+              <preferredSize width="800" height="600"/>
+            </properties>
+          </component>
+          <component id="cc1d9" class="javax.swing.JButton" binding="selectPathButton">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <text value="..."/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e7742" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <alignmentX value="1.0"/>
+        </properties>
+        <border type="none">
+          <title-color color="-4473925"/>
+        </border>
+        <children>
+          <grid id="3223b" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="West"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="d5af8" class="javax.swing.JButton" binding="backButton">
+                <constraints/>
+                <properties>
+                  <text value="Powrót"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="23a3f" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="East"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="e10af" class="javax.swing.JButton" binding="createProjectButton">
+                <constraints/>
+                <properties>
+                  <enabled value="false"/>
+                  <text value="Utwórz Projekt"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

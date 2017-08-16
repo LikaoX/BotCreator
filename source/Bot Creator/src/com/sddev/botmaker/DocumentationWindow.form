@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.sddev.botmaker.DocumentationWindow">
+  <grid id="27dc6" binding="contentPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="950" height="600"/>
+    </constraints>
+    <properties>
+      <minimumSize width="950" height="600"/>
+      <preferredSize width="950" height="600"/>
+    </properties>
+    <border type="empty">
+      <size top="4" left="4" bottom="4" right="4"/>
+    </border>
+    <children>
+      <splitpane id="8f52c">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <dividerLocation value="262"/>
+          <lastDividerLocation value="230"/>
+          <requestFocusEnabled value="true"/>
+          <resizeWeight value="0.0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="30879" layout-manager="FormLayout">
+            <rowspec value="center:d:noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <colspec value="fill:p:grow"/>
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-723724"/>
+              <minimumSize width="0" height="76"/>
+            </properties>
+            <border type="empty">
+              <size top="10" left="10" bottom="10" right="10"/>
+            </border>
+            <children>
+              <component id="ca8d4" class="javax.swing.JTextField" binding="headerLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="SansSerif" size="18"/>
+                  <foreground color="-16777216"/>
+                  <opaque value="true"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="bb715" class="javax.swing.JTextArea" binding="descriptionLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Arial" size="14"/>
+                  <lineWrap value="true"/>
+                  <minimumSize width="14" height="17"/>
+                  <preferredSize width="0" height="1700"/>
+                  <rows value="100"/>
+                  <text value=""/>
+                  <wrapStyleWord value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <scrollpane id="6918a" binding="scroll">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <verticalScrollBarPolicy value="20"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="43028" class="javax.swing.JTree" binding="tree1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <visibleRowCount value="20"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>

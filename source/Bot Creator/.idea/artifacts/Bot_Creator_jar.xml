@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Bot Creator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bot_Creator_jar</output-path>
+    <root id="archive" name="Bot Creator.jar">
+      <element id="module-output" name="Bot Creator" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/opencv-249.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jython-standalone-2.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jgoodies-forms.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jnativehook-2.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

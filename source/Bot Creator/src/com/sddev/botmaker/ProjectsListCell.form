@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.sddev.botmaker.ProjectsListCell">
+  <grid id="27dc6" binding="cell" layout-manager="FormLayout">
+    <rowspec value="center:21px:noGrow"/>
+    <rowspec value="top:1dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <constraints>
+      <xy x="20" y="20" width="440" height="53"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="empty">
+      <size top="5" left="40" bottom="5" right="15"/>
+    </border>
+    <children>
+      <component id="8c0f5" class="javax.swing.JLabel" binding="text1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="14"/>
+          <foreground color="-16777216"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="60788" class="javax.swing.JLabel" binding="text2">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="10"/>
+          <foreground color="-5855578"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

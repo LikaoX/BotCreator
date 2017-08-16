@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.sddev.botmaker.MainWindow">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1280" height="768"/>
+    </constraints>
+    <properties>
+      <minimumSize width="1280" height="720"/>
+      <preferredSize width="1280" height="720"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <border type="empty">
+      <size top="0" left="0" bottom="0" right="0"/>
+    </border>
+    <children>
+      <grid id="d00d7" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="bevel-lowered"/>
+        <children>
+          <component id="eabc4" class="javax.swing.JLabel" binding="statusBar">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font name="Consolas" size="12"/>
+              <horizontalAlignment value="4"/>
+              <minimumSize width="0" height="15"/>
+              <text value=" "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="1f1b5" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="empty">
+          <size top="4" left="4" bottom="2" right="4"/>
+        </border>
+        <children>
+          <splitpane id="74526">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <dividerLocation value="250"/>
+              <resizeWeight value="0.15"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <splitpane id="50aad">
+                <constraints>
+                  <splitpane position="right"/>
+                </constraints>
+                <properties>
+                  <orientation value="0"/>
+                  <resizeWeight value="0.8"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <tabbedpane id="4acd7" binding="tabbedPane">
+                    <constraints>
+                      <splitpane position="left"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children/>
+                  </tabbedpane>
+                  <scrollpane id="6e940" binding="logsScrollPane">
+                    <constraints>
+                      <splitpane position="right"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="9cde0" class="com.sddev.botmaker.JConsoleOutput" binding="logsTextPane">
+                        <constraints/>
+                        <properties>
+                          <font name="Monospaced" size="12"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                </children>
+              </splitpane>
+              <scrollpane id="b5dcb" binding="scroll">
+                <constraints>
+                  <splitpane position="left"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="30e45" class="javax.swing.JTree" binding="filesTree">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </splitpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Node header="Dokumentacja" description="Dokumentacja projektu Bot Creator">
+    <Node header="O projekcie" description="Bot Creator jest zintegowanym środowiskiem programistycznym pozwalającym na pisanie botów w języku Jython. Program zawiera ułatwienia pozwalające na łatwiejsze i szybsze tworzenie prostych botów, takie jak przechwytywanie akcji i zapisywanie ich w postaci kodu, czy tworzenie zrzutów ekranu."/>
+    <Node header="Informacje o kursorze" description="W menu 'Kursor' znajduje się opcja pokazywania informacji o kursorze myszy. Po jej włączeniu zostanie otwarte okno w rogu ekranu, informujące o pozycji kursora (x, y) oraz o jego odległości od punktu, w którym ostatnio wciśnięto klasisz F2 (dX, dY)."/>
+    <Node header="Klasy" description="Klasy projektu używane w skryptach.">
+        <ClassNode class="bot.Bot" description="Nie można utworzyć obiektu tej klasy ani z niej dziedziczyć. Służy tylko za kontener na funkcje statyczne."/>
+        <ClassNode class="bot.InputDialog"/>
+        <ClassNode class="bot.DataSet"/>
+        <ClassNode class="bot.Image"/>
+        <ClassNode class="bot.Point"/>
+        <ClassNode class="bot.Color"/>
+    </Node>
+</Node>

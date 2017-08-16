@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.sddev.botmaker.ProjectsWindow">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="800" height="450"/>
+    </constraints>
+    <properties>
+      <focusable value="true"/>
+      <inheritsPopupMenu value="false"/>
+      <maximumSize width="6400" height="4800"/>
+      <minimumSize width="700" height="450"/>
+      <opaque value="true"/>
+      <preferredSize width="700" height="450"/>
+      <requestFocusEnabled value="true"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="74c1a" layout-manager="FormLayout">
+        <rowspec value="center:d:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <opaque value="true"/>
+          <preferredSize width="420" height="400"/>
+        </properties>
+        <border type="empty">
+          <size top="20" left="20" bottom="20" right="20"/>
+        </border>
+        <children>
+          <component id="4ecc9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <icon value="com/sddev/botmaker/resources/robot (1).png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="87ac3" class="javax.swing.JLabel" binding="titleLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <font name="Arial Unicode MS" size="36"/>
+              <foreground color="-10066330"/>
+              <horizontalAlignment value="0"/>
+              <text value="Bot Creator"/>
+            </properties>
+          </component>
+          <component id="5f66b" class="javax.swing.JButton" binding="newProjectButton">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <contentAreaFilled value="false"/>
+              <focusable value="false"/>
+              <horizontalTextPosition value="10"/>
+              <opaque value="true"/>
+              <text value="Nowy Projekt"/>
+            </properties>
+          </component>
+          <component id="12b55" class="javax.swing.JButton" binding="openProjectButton">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <contentAreaFilled value="false"/>
+              <focusable value="false"/>
+              <text value="Otwórz Projekt"/>
+            </properties>
+          </component>
+          <component id="1de62" class="javax.swing.JButton" binding="exitButton">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <contentAreaFilled value="false"/>
+              <focusTraversalPolicyProvider value="false"/>
+              <focusable value="false"/>
+              <text value="Wyjdź"/>
+            </properties>
+          </component>
+          <component id="65c5" class="javax.swing.JLabel" binding="versionLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <font name="Fira Code Light" size="16"/>
+              <foreground color="-10461088"/>
+              <horizontalAlignment value="0"/>
+              <text value="Version 2017.1.1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8bd95" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="empty">
+          <size top="0" left="0" bottom="0" right="0"/>
+        </border>
+        <children>
+          <scrollpane id="903e8" binding="scroll">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalScrollBarPolicy value="31"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="96e81" class="javax.swing.JList" binding="list1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <maximumSize width="1000000" height="1000000"/>
+                  <preferredSize width="280" height="0"/>
+                  <selectionMode value="0"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
